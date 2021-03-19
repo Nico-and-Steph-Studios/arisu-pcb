@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:arisu-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U2
+L arisu-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U2
 U 1 1 5C4B1F82
 P 4500 4250
 F 0 "U2" H 4900 2400 50  0000 C CNN
@@ -25,7 +26,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J1
+L arisu-rescue:USB_B_Micro-Connector J1
 U 1 1 5C4B21E5
 P 1000 4800
 F 0 "J1" H 1055 5267 50  0000 C CNN
@@ -36,7 +37,7 @@ F 3 "~" H 1150 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:USBLC6-2SC6 U1
+L arisu-rescue:USBLC6-2SC6-Power_Protection U1
 U 1 1 5C4B2347
 P 1900 5650
 F 0 "U1" H 1900 6328 50  0000 C CNN
