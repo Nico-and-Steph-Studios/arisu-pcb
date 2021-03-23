@@ -1,3 +1,5 @@
+# In Progress
+
 # Arisu Keyboard PCB
 アリス PCB designed using KiCad. The layout is inspired by Lyn's EM7 and TGR Alice with some modification of my own.
 
